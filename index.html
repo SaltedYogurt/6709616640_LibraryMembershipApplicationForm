@@ -56,6 +56,19 @@
                 <label for="birthdate">วันเดือนปีเกิด <span class="required">*</span></label>
                 <input type="date" id="birthdate" name="birthdate" required>
             </div>
+
+            <div class="form-group">
+                <label for="book-type">ประเภทของหนังสือที่สนใจ <span class="required">*</span></label>
+                <select id="book-type" name="book-type" multiple required>
+                    <option value="fiction">นิยาย</option>
+                    <option value="non-fiction">สารคดี</option>
+                    <option value="science">วิทยาศาสตร์</option>
+                    <option value="technology">เทคโนโลยี</option>
+                    <option value="history">ประวัติศาสตร์</option>
+                    <option value="arts">ศิลปะ</option>
+                </select>
+                <small><i>สามารถเลือกได้มากกว่าหนึ่งประเภท</i></small>
+            </div>
     </div>
 </body>
 </html>
