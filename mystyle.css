@@ -44,3 +44,7 @@ select {
     gap: 10px;
     align-items: center;
 }
+
+.form-group {
+    margin-bottom: 15px;
+}
